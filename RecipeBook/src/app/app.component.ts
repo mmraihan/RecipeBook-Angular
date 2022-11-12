@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+loadedFeature;
+  onNavigate(arg:string){
+    this.loadedFeature=arg;
+    console.log(this.loadedFeature)
+  }
  
 }
