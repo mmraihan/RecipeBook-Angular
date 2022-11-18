@@ -32,4 +32,8 @@ export class ReceipeService{
         
 
       }
+
+      GetRecipeById(index: number){
+        return this.recipes[index] 
+      }
 }
